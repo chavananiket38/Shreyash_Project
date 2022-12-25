@@ -70,7 +70,6 @@ const Signin = () => {
             className="alert alert-danger"
             style={{ display: error ? "" : "none" }}
           >
-            {error}
           </div>
         </div>
       </div>
@@ -117,7 +116,6 @@ const Signin = () => {
       {signInForm()}
       {performRedirect()}
 
-      <p className="text-white text-center">{JSON.stringify(values)}</p>
     </Base>
   );
 };

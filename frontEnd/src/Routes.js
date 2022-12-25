@@ -15,6 +15,7 @@ import UpdateProduct from "./admin/UpdateProduct";
 import Cart from "./core/Cart";
 import Home from "./main/Home";
 import Event from "./main/Event";
+import Community from "./main/Community";
 
 const Routes = () => {
   return (
@@ -22,6 +23,7 @@ const Routes = () => {
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/event" exact component={Event} />
+        <Route path="/community" exact component={Community} />
         <Route path="/ecommerce" exact component={Ecommerce} />
         <Route path="/signup" exact component={Signup} />
         <Route path="/signin" exact component={Signin} />

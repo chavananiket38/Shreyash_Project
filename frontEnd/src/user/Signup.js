@@ -90,7 +90,7 @@ const Signup = () => {
             style={{ display: success ? "" : "none" }}
           >
             New account was created successfully. Please
-            <Link to="/signin">Login Here</Link>
+            <Link to="/signin">  Login Here</Link>
           </div>
         </div>
       </div>
@@ -105,7 +105,6 @@ const Signup = () => {
             className="alert alert-danger"
             style={{ display: error ? "" : "none" }}
           >
-            {error}
           </div>
         </div>
       </div>
@@ -117,7 +116,6 @@ const Signup = () => {
       {successMessage()}
       {errorMessage()}
       {signUpForm()}
-      <p className="text-white text-center">{JSON.stringify(values)}</p>
     </Base>
   );
 };

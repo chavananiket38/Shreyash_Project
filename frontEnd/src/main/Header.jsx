@@ -21,7 +21,7 @@ const Header = () => {
                     <Link to="/" role="link" aria-label="#" className="ui-section-header--nav-link">Home</Link>
                     <Link to="/event" role="link" aria-label="#" className="ui-section-header--nav-link">Events</Link>
                     <Link to="/ecommerce" role="link" aria-label="#" className="ui-section-header--nav-link">Store</Link>
-                    <Link href="" role="link" aria-label="#" className="ui-section-header--nav-link">About Us</Link>
+                    <Link to="/community" role="link" aria-label="#" className="ui-section-header--nav-link">Community</Link>
                     {/* <Link to="#pricing" role="link" aria-label="#" className="ui-section-header--nav-link">Pricing</Link> */}
                     </nav>
                 </div>

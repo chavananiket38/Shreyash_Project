@@ -123,13 +123,6 @@ comfort and independence of senior citizens.</p>
                 <span>/</span>
                 <span>month</span>
               </div>
-              <span><small>Perfect for early-stage startups.</small></span>
-              
-              <ul className="ui-component-list ui-component-list--pricing ui-layout-grid">
-                <li className="ui-component-list--item ">1 domain name.</li>
-                <li className="ui-component-list--item ">HTML components.</li>
-                <li className="ui-component-list--item ">Priority support.</li>
-              </ul>
               
               <a href="#" className="ui-component-button ui-component-button-big ui-component-button-primary" role="link" aria-label="#">Get Started</a>
             </div>
@@ -168,7 +161,7 @@ comfort and independence of senior citizens.</p>
             <div className="ui-layout-column-4">
               <img src="https://res.cloudinary.com/uisual/image/upload/assets/icons/avatar.svg" alt="#" className="ui-section-testimonial--avatar"/>
               <p className="ui-section-testimonial--quote ui-text-intro">&ldquo;My elderly father who has vision impairment had a serious fall in 2018 which left him bed ridden for a long time. We are so relieved that we have the ResQ button and a dedicated Helpee Hand.&rdquo;</p>
-              <p className="ui-section-testimonial--author"><strong>Jane Doe</strong><br/><small className="ui-text-note">CEO of Company</small></p>
+              <p className="ui-section-testimonial--author"><strong>Harry Bruck</strong><br/><small className="ui-text-note">CEO of Company</small></p>
             </div>
           </div>
         </div>

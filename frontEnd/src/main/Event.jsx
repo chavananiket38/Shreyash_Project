@@ -3,6 +3,7 @@ import Header from "./Header";
 import { useState } from 'react';
 import { json } from 'react-router-dom';
 import React from 'react';
+import "./com.css";
 
 const Event = () => {
   
@@ -66,6 +67,58 @@ const Event = () => {
   return (
   <div>
     <Header />
+    <h3 className="header"> Welcome to Events Page</h3>
+            <div className="main">
+
+
+            <div className="cardNew" >
+
+            <div className="image">
+            <img src="https://thumbs.dreamstime.com/b/celebrating-elderly-woman-birthday-blowing-candles-homemade-baked-cake-indoor-birthday-party-seniors-woman-celebrating-251948614.jpg" />
+            </div>
+            <div className="title">
+            <h1>Birthday</h1>
+            </div>
+            <div className="des">
+            <p>Celebration and party</p>
+            
+            </div>
+            </div>
+
+
+
+            <div className="cardNew">
+
+            <div className="image">
+            <img src="http://casinopartyatlanta.com/wp-content/uploads/2012/01/casino-party-for-seniors-300x225.jpg" />
+            </div>
+            <div className="title">
+            <h1>Casino Night</h1>
+            </div>
+            <div className="des">
+            <p>Music and dance</p>
+                
+            </div>
+            </div>
+            
+            <div className="cardNew">
+
+                <div className="image">
+                <img src="https://media.istockphoto.com/id/1005860264/photo/exhausted-mature-runner-pouring-fresh-water-on-his-head-during-a-marathon-race.jpg?s=612x612&w=0&k=20&c=kHEVrHFnOkvZ7paMKn66iMW4kcZOSGJiAaQrVyUCSYQ=" />
+                </div>
+                <div className="title">
+                <h1>Marathon</h1>
+                </div>
+                <div className="des">
+                <p>Walking, running and prizes</p>
+
+                </div>
+                </div>
+                
+            </div>
+
+
+    <h3 className="book"> Book your Event by filing this form</h3>
     <div className="event">
       <div className="testbox">
         <form onSubmit={(e)=>handleSubmit(e)}>
